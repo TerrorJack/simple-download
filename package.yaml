@@ -1,0 +1,17 @@
+name: simple-download
+version: 0.0.0
+synopsis: Simple & portable file download.
+category: Web
+author: Shao Cheng <astrohavoc@gmail.com>
+copyright: (c) 2016 Shao Cheng
+license: BSD3
+github: TerrorJack/simple-download
+
+ghc-options: -Wall -O2
+
+dependencies:
+  - base >= 4.8 && < 4.10
+  - http-conduit
+
+library:
+  source-dirs: src
