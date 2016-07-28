@@ -9,9 +9,16 @@ github: TerrorJack/simple-download
 
 ghc-options: -Wall -O2
 
+default-extensions:
+  - FlexibleContexts
+
 dependencies:
   - base >= 4.8 && < 4.10
+  - conduit-combinators
+  - http-client
   - http-conduit
+  - mtl
+  - transformers
 
 library:
   source-dirs: src
