@@ -1,16 +1,19 @@
 name: simple-download
-version: 0.0.0
-synopsis: Simple & portable file download.
+version: 0.0.2
+synopsis: A simple wrapper of http-conduit for file download.
 category: Web
-author: Shao Cheng <astrohavoc@gmail.com>
+maintainer: Shao Cheng <astrohavoc@gmail.com>
 copyright: (c) 2016 Shao Cheng
 license: BSD3
 github: TerrorJack/simple-download
 
-ghc-options: -Wall -O2
+ghc-options: -Wall
 
 default-extensions:
   - FlexibleContexts
+
+extra-source-files:
+  - README.md
 
 dependencies:
   - base >= 4.8 && < 4.10
