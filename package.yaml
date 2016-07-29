@@ -1,5 +1,5 @@
 name: simple-download
-version: 0.0.2
+version: 0.0.3
 synopsis: A simple wrapper of http-conduit for file download.
 category: Web
 maintainer: Shao Cheng <astrohavoc@gmail.com>
@@ -18,7 +18,8 @@ extra-source-files:
 dependencies:
   - base >= 4.8 && < 4.10
   - conduit-combinators
-  - http-client
+  - cryptonite
+  - cryptonite-conduit
   - http-conduit
   - mtl
   - transformers
